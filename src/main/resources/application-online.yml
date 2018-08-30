@@ -1,0 +1,4 @@
+server:
+  port: 18888
+  servlet:
+    context-path: /sdata/v1/rest

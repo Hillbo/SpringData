@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hillbo
+    username: root
+    password: 123456
+
+  #jpa配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    # 配置数据库类型为mysql——INNODB
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+
+
+
