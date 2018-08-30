@@ -1,4 +1,4 @@
-package com.sdata.pojo;
+package com.hillbo.pojo;
 
 import lombok.Data;
 

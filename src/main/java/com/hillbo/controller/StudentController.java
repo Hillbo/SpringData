@@ -1,7 +1,7 @@
-package com.sdata.controller;
+package com.hillbo.controller;
 
-import com.sdata.mapper.StudentDao;
-import com.sdata.pojo.Student;
+import com.hillbo.mapper.StudentDao;
+import com.hillbo.pojo.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.data.jpa.domain.Specification;

@@ -1,6 +1,6 @@
-package com.sdata.mapper;
+package com.hillbo.mapper;
 
-import com.sdata.pojo.Student;
+import com.hillbo.pojo.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
